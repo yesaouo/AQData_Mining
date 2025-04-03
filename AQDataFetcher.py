@@ -182,7 +182,7 @@ class AQDataFetcher:
 
 # --- Example Usage ---
 if __name__ == "__main__":
-    API_KEY = "fd64c486-c224-43d1-835f-8ce005dfb93c" # Replace with your key
+    API_KEY = "YOUR_API_KEY_HERE" # Replace with your key
 
     if API_KEY == "YOUR_API_KEY_HERE" or not API_KEY:
         print("Please replace 'YOUR_API_KEY_HERE' with your actual API key.")
