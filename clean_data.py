@@ -9,5 +9,4 @@ def process_data(input_file):
     df_clean.to_csv(output_file, index=False, encoding='utf-8-sig')
     print(f"處理完成，已儲存至 {output_file}")
 
-process_data("air_quality_data\\20250324_20250330.csv")
-process_data("air_quality_data\\20250406_20250408.csv")
+process_data("air_quality_data\\20250401_20250531.csv")
